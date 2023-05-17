@@ -73,7 +73,10 @@ const InfoBox = () => {
               <li>align-items: {flexValue.alignItems.value}</li>
               <li>flex-direction: {flexValue.flexDirection.value}</li>
               <li>gap: {flexValue.gap.value}</li>
-              <li>flex-wrap: {flexValue.flexWrap.value}</li>
+              <li>
+                flex-wrap: {flexValue.flexWrap.value}
+                {" {"}
+              </li>
             </ul>
             <div></div>
           </div>

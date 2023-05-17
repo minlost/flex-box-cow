@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CZ - Flex-Box Cow
 
-## Getting Started
+Flex-Box Cow je virtuální playground, který slouží jako malý odpočinkový projekt. Byl vytvořen během jednoho odpoledne a postupně bude dále vylepšován. Doufám, že může pomoci začátečníkům v oblasti flexboxu. Projekt nevyžaduje žádné závislosti s výjimkou `next-themes` a `next-themes`. Je vyvinut pomocí frameworku Next.js ve verzi 13.4.
 
-First, run the development server:
+## Obsah
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Instalace](#instalace)
+- [Použití](#použití)
+- [Příspěvky](#příspěvky)
+- [Přispívání](#přispívání)
+- [Licence](#licence)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalace
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Naklonujte si tento repozitář: `git clone https://github.com/váš-uživatelský-název/Flex-Box-Cow.git`
+2. Přejděte do složky projektu: `cd Flex-Box-Cow`
+3. Nainstalujte závislosti: `npm install`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Použití
 
-## Learn More
+1. Spusťte vývojový server: `npm run dev`
+2. Otevřete webový prohlížeč a přejděte na adresu [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## Příspěvky
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Příspěvky jsou vítány! Pokud chcete přispět k Flex-Box Cow, prosím postupujte podle následujících kroků:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Vytvořte si odnož tohoto repozitáře: `git checkout -b moje-nová-funkce`
+2. Proveďte požadované změny.
+3. Commitněte své změny: `git commit -m "Přidána moje nová funkce"`
+4. Nahrajte své změny na vzdálený repozitář: `git push origin moje-nová-funkce`
+5. Vytvořte pull request na GitHubu.
 
-## Deploy on Vercel
+## Přispívání
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pokud máte nápady na vylepšení Flex-Box Cow, budu rád za vaši pomoc! Sledujte prosím standardní postup přispívání, jak je popsáno výše.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Licence
+
+Tento projekt je licencován pod [MIT licencí](LICENSE).
+
+# EN - Flex-Box Cow
+
+Flex-Box Cow is a virtual playground designed as a small relaxing project. It was created in one afternoon and will be gradually refined over time. I hope it can help beginners in the field of flexbox. The project does not require any dependencies except for `next-themes` and `next-themes`. It is developed using Next.js framework version 13.4.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+1. Clone this repository: `git clone https://github.com/your-username/Flex-Box-Cow.git`
+2. Navigate to the project directory: `cd Flex-Box-Cow`
+3. Install the dependencies: `npm install`
+
+## Usage
+
+1. Start the development server: `npm run dev`
+2. Open a web browser and visit [http://localhost:3000](http://localhost:3000)
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to Flex-Box Cow, please follow these steps:
+
+1. Create a branch for your feature: `git checkout -b my-new-feature`
+2. Make the necessary changes.
+3. Commit your changes: `git commit -m "Added my new feature"`
+4. Push your changes to the remote repository: `git push origin my-new-feature`
+5. Create a pull request on GitHub.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
