@@ -68,14 +68,14 @@ const InfoBox = () => {
             </ul>
             <ul className="w-[30%]">
               <li>{".container {"}</li>
-              <li>display: flex</li>
-              <li>justify-content: {flexValue.justifyContent.value}</li>
-              <li>align-items: {flexValue.alignItems.value}</li>
-              <li>flex-direction: {flexValue.flexDirection.value}</li>
-              <li>gap: {flexValue.gap.value}</li>
+              <li>display: flex;</li>
+              <li>justify-content: {flexValue.justifyContent.value};</li>
+              <li>align-items: {flexValue.alignItems.value};</li>
+              <li>flex-direction: {flexValue.flexDirection.value};</li>
+              <li>gap: {flexValue.gap.value};</li>
               <li>
-                flex-wrap: {flexValue.flexWrap.value}
-                {" {"}
+                flex-wrap: {flexValue.flexWrap.value}; <br />
+                {" }"}
               </li>
             </ul>
             <div></div>

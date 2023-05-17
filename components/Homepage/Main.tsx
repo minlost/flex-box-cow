@@ -57,7 +57,10 @@ const Main = () => {
           můžete najít a případně přispět k dalšímu rozvoji projektu. Vaše
           zpětná vazba a příspěvky jsou vítány a pomáhají nám vytvářet lepší
           nástroje pro vás a další vývojáře. Děkuji!{" "}
-          <Link href={"#"} className="text-2xl">
+          <Link
+            href={"https://github.com/minlost/flex-box-cow"}
+            className="text-2xl"
+          >
             GITHUB
           </Link>
         </p>
