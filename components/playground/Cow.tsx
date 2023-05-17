@@ -34,7 +34,7 @@ const Cow = ({ index }: CowProps) => {
 
   return (
     <div
-      className={`w-[50px] h-[50px] flex justify-center items-center relative hover:scale-105 ease-in-out ${bgValue}`}
+      className={`w-[50px] h-[50px] flex justify-center items-center relative hover:scale-105 ease-in-out ${bgValue} z-20`}
       style={{ order: orderValue }}
     >
       <div

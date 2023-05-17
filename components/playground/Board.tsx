@@ -18,9 +18,10 @@ const Board = () => {
   }
 
   return (
-    <div className="flex justify-center text-center " onClick={closeCow}>
+    <div className="flex justify-center text-center ">
       <div
         className={`bg-primary w-[300px] h-[300px]  border-b border-l border-r rounded-b-lg md:border-t md:rounded-t-lg flex p-2 `}
+        onClick={closeCow}
         style={{
           justifyContent: justifyContent.value,
           alignItems: alignItems.value,
