@@ -5,11 +5,14 @@ import Cow from "./Cow"
 import { useGlobalContext } from "@/context/GlobalContext"
 
 const Board = () => {
-  const { flexValue, cowStore } = useGlobalContext()
+  const { flexValue, cowStore, setOpenedCow } = useGlobalContext()
 
   const { justifyContent, alignItems, flexDirection, gap, flexWrap } = flexValue
   return (
-    <div className="flex justify-center text-center ">
+    <div
+      className="flex justify-center text-center "
+      onClick={() => setOpenedCow(null)}
+    >
       <div
         className={`bg-primary w-[300px] h-[300px]  border-b border-l border-r rounded-b-lg md:border-t md:rounded-t-lg flex p-2 `}
         style={{
